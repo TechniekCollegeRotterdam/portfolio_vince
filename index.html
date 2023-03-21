@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vince van Apeldoorn</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/foto.png">
+</head>
+
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"> Back to top </button>
+
+  <div>
+    <div class="wrapper">
+      <div class="box">
+        <div class="single-box" style="background-image: url('https://i.postimg.cc/vHXWB9DN/1.png')"></div>
+        <div id="navbar">
+          <nav>
+
+            <ul class="nav-menu">
+              <li><a onclick="removeMenu()" href="#work">Werkervaring</a></li>
+              <li><a onclick="removeMenu()" href="#vaardigheden">Vaardigheden</a></li>
+              <li><a onclick="removeMenu()" href="#project">Projecten</a></li>
+              <li><a onclick="removeMenu()" href="#skills">Mijn skills</a></li>
+              <li><a onclick="removeMenu()" href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+
+        <div style="padding:15px 15px 2500px;font-size:30px;margin-top:30px;">
+          <div class="container-profile">
+            <div class="img-container">
+              <img src="img/foto.png" alt="vince" class="image" width="500">
+            </div>
+            <div class="text-container">
+              <p class="small">
+                Hallo ik ben,
+              </p>
+              <p class="large">
+                Vince van Apeldoorn
+              </p>
+              <p class="medium">
+                software developer creative media technology.
+
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="menu">
+      <div class="button" id="wrapper1">
+        <button id="work" class="btn-hover color-1" onclick="divVisibility('Div1')">Werkervaring</button>
+        <button id="vaardigheden" class="btn-hover color-1" onclick="divVisibility('Div2')">Vaardigheden</button>
+        <button id="project" class="btn-hover color-1" onclick="divVisibility('Div3')">Projecten</button>
+      </div>
+      <div class="inner_div">
+        <div id="Div1">
+          <div class="container-work">
+
+            <div class="item">
+              <p>Obs het Palet, Nieuwenhoorn — Begeleider
+                September 2019-Maart 2020
+                Ik heb op mijn oude basisschool leerlingen begeleid met Word. Ik had hier de verantwoording van
+                ongeveer
+                8
+                kinderen.</p>
+              <br>
+              <img class="palet" src="img/Logo-HetPalet-50.png" alt="obs het Palet" width="50" style="width: 20%;">
+
+            </div>
+
+            <div class="item">
+              <p>Shantung Black Dragon, Hellevoetsluis — Hulptrainer
+                2018-2020
+                Ik help al sinds 2018 bij de kickboksschool Shantung Black Dragon bij de beginners. Ik train hier zelf
+                ook. Ook
+                begeleid ik kinderen bij de wedstrijden. In 2020 is deze vereniging gestopt.</p>
+
+              <br>
+              <img class="circle-hover" src="img/logo.png" alt="Shantung black dragon" width="50" style="width: 20%;">
+            </div>
+            <div class="item">
+              <p>Garage van Eendenburg, Brielle — Werkplaats opruimen
+                Ik heb van 2020 tot 2022 gewerkt bij Garage van Eendenburg als schoonmaker op de zaterdag. Ik had
+                hierbij de
+                verantwoordelijkheid dat iedere zaterdag de vloer schoon was en de werkplaats netjes opgeruimd.</p>
+              <br>
+              <img class="circle-hover" src="img/download.png" alt="bosh" width="50" style="width: 20%;">
+            </div>
+          </div>
+
+        </div>
+        <div class="container-vaardigheden" id="Div2" style="display: none;">
+
+          <div class="vaardigheden">
+            <p class="vaardigheden-text">
+              Ik zit nu in het eerste leerjaar op Techniekcollege Rotterdam. De opleiding die ik volg is Software
+              Developer Creative Media Technology. Ik heb al veel ervaring met HTML en css/scss. Ook heb ik al enige
+              ervaring met Javascript. In het tweede leerjaar krijg ik ook het framework React.
+            </p>
+
+          </div>
+        </div>
+        <div id="Div3" style="display: none;">
+          <div class="grid-container-project">
+            <div class="item1">Voorbeelden van projecten die ik heb gedaan</div>
+            <div class="item2">
+              <div class="circle-hover column">
+                <figure> <img src="img/Scherm­afbeelding 2023-01-12 om 09.39.39.png" alt="Ouderavondwebsite"
+                    width="600px" style="width: 80%;">
+                </figure>
+              </div>
+            </div>
+
+
+            <div class="item3">Ik heb in opdracht van school een website moeten maken</div>
+            <div class="item4">
+              <div class="circle-hover column">
+                <figure> <img src="img/Scherm­afbeelding 2023-01-12 om 12.49.52.png" alt="Gamewebsite" width="600px"
+                    style="width: 80%;">
+                </figure>
+
+              </div>
+
+
+            </div>
+            <div class="item5">Gamewebsite</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="skills">
+      <h1 class="skills-title">Mijn skills</h1>
+      <div class="cards card_outer">
+
+        <div class="card2">
+          <div class="top image">
+            <img src="img/317755_badge_html_html5_achievement_award_icon.png" alt="html5">
+
+          </div>
+          <div class="bottom content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s,</p>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="top image">
+            <img src="img/317756_badge_css_css3_achievement_award_icon.png" alt="css">
+
+          </div>
+          <div class="bottom content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s,</p>
+          </div>
+        </div>
+        <div class="card4">
+          <div class="top image">
+            <img src="img/4373213_js_logo_logos_icon.png" alt="js">
+
+          </div>
+          <div class="bottom content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s,</p>
+          </div>
+        </div>
+        <div class="card5">
+          <div class="top image">
+            <img src="img/7564187_figma_logo_brand_icon.png" alt="figma">
+
+
+          </div>
+          <div class="bottom content">
+            <p>In figma maak ik designs voor websites. Ik kan hiermee dan bijvoorbeeld de klant een voorbeeld laten zien
+              hoe de website er ongeveer uit gaat zien.</p>
+          </div>
+        </div>
+        <div class="card6">
+          <div class="top image">
+            <img src="img/b3779c3b9bf424f4e1a6fffe16f05ff7_icon.png" alt="gitkraken">
+
+          </div>
+          <div class="bottom content">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s,</p>
+          </div>
+        </div>
+
+        <div class="card7">
+          <div class="top image">
+            <img src="img/9805163_logo_microsoft_vs code_visual studio code_code_icon.png" alt="VS-code">
+
+          </div>
+          <div class="bottom content">
+            <p>De editor die ik gebruik om te programmeren is Visual studio code. Ik gebruik deze editor op advies van
+              school</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="contact" class="contact">
+      <article class="profile">
+        <div class="profile-image">
+          <img src="img/foto.png" alt="vince" />
+        </div>
+        <h2 class="profile-username">Vince van Apeldoorn</h2>
+        <small class="profile-user-handle">Contact me!</small>
+        <div class="profile-actions">
+          <a href="tel:+31638457836" target="_blank">
+            <img class="hover" src="img/Component 1.png" alt="phone">
+
+          </a>
+          <a  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=vincevanapeldoorn@gmail.com"
+            target="_blank">
+            <img class="hover" src="img/Component 2.png" alt="gmail">
+
+          </a>
+
+          <a href="https://www.google.com/maps/place/Abdijweide+13,+3223+MD+Hellevoetsluis/@51.8452989,4.1575139,17z/data=!3m1!4b1!4m6!3m5!1s0x47c44e1ee4843117:0xa7cdd689be98f235!8m2!3d51.8452989!4d4.1597026!16s%2Fg%2F11c21lgk_q"
+            target="_blank">
+            <img class="hover" src="img/Component 3.png" alt="location">
+
+          </a>
+
+        </div>
+        <section class="linkedin-github">
+          <div class="img-linkedin">
+            <a href="https://www.linkedin.com/in/vince-van-apeldoorn-52997a248/" target="_blank">
+              <img src="img/circle-linkedin-512.webp" alt="logo-github" with="100px" height="100px" /></a>
+          </div>
+
+          <div class="img-github">
+            <a href="https://github.com/Vince1510" target="_blank">
+              <img src="img/4202098_github_code_developer_logo_icon.png" alt="logo-github" with="100px"
+                height="100px" /></a>
+          </div>
+        </section>
+      </article>
+    </section>
+    <div class="footer">
+      <p class="footer-text">© 2023 Vince van Apeldoorn. All Rights Reserved</p>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
+<html>
+
+<head>
